@@ -1,25 +1,25 @@
-const nome = "Super Programador"
-let XPdoHeroi = 9512
-let nivelHeroi;
+class heroi {
+    constructor(nome, idade, tipo) {
+        this.nome = nome;
+        this.idade = idade;
+        this.tipo = tipo;
+    }
 
-if (XPdoHeroi <= 1000) {
-    nivelHeroi = "Ferro"
-} else if (XPdoHeroi > 1000 && XPdoHeroi <= 2000) {
-    nivelHeroi = "Bronze"
-} else if (XPdoHeroi > 2000 && XPdoHeroi <= 5000) {
-    nivelHeroi = "Prata"
-} else if (XPdoHeroi > 5000 && XPdoHeroi <= 7000) {
-    nivelHeroi = "Ouro"
-} else if (XPdoHeroi > 5000 && XPdoHeroi <= 8000) {
-    nivelHeroi = "Platina"
-} else if (XPdoHeroi > 8000 && XPdoHeroi <= 9000) {
-    nivelHeroi = "Ascndente"
-} else if (XPdoHeroi > 9000 && XPdoHeroi <= 10000) {
-    nivelHeroi = "Imortal"
-} else {
-    nivelHeroi = "Radiante"
+    atacar() {
+        if(this.tipo = mago) {
+            console.log("usou magia")
+        } else if ( this.tipo = guerreiro) {
+            console.log("usou espada")
+        } else if (this.tipo = monge) {
+            console.log("usou artes marciais")
+        } else if ( this.tipo = ninja) {
+            console.log("usou shuriken")
+        }
+
+        console.log(` o ${this.tipo} atacou usando ${atacar()}`)
+    }
 }
 
-console.log("O heroi de nome " + nome + " está no nível " + nivelHeroi)
-    
+const heroi1 = new Heroi('Herói Magico', 25, 'mago');
+heroi1.atacar();
  
